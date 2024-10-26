@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb+srv://harshdhakate551:harsh@cluster0.ml1mudv.mongodb.net/Job-Portal")
+  .connect("MOGO_URL")
   .then(() => {
     console.log("SignUp Database connected sucessfully");
   });
